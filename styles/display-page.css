@@ -1,0 +1,46 @@
+.whole {
+	width: 800px;
+	margin: auto;
+}
+
+/* Is there a more efficient way of doing this declaration? */
+.green, .blue, .grey, .black, .orange {
+	border: 1px solid black;
+}
+/* End question */
+
+.green {
+	background-color: green;
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+
+.blue {
+	background-color: blue;
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+
+.grey {
+	background-color: grey;
+	width: 33.33%;
+	height: 300px;
+	clear: both;
+	float: left;
+}
+
+.black {
+	background-color: black;
+	width: 33.33%;
+	height: 300px;
+	float: left;
+}
+
+.orange {
+	background-color: orange;
+	width: 33.33%;
+	height: 300px;
+	float: left;
+}
